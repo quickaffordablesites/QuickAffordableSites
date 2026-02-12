@@ -193,6 +193,38 @@ a:hover {
     }
 }
 
+/* Logo Showcase Section (White Background) */
+.logo-showcase {
+    background: white;
+    padding: 5rem 2rem;
+    width: 100%;
+}
+
+.logo-showcase-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase-logo {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+    .logo-showcase {
+        padding: 3rem 1.5rem;
+    }
+    
+    .showcase-logo {
+        max-width: 350px;
+    }
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-blue) 0%, #0a3a5a 100%);
@@ -214,25 +246,6 @@ a:hover {
     align-items: center;
     gap: 2rem;
     text-align: center;
-}
-
-.hero-brand-panel {
-    background: white;
-    border-radius: 20px;
-    padding: 4rem 3rem;
-    margin-bottom: 3rem;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    animation: fadeInDown 0.8s ease-out;
-}
-
-.hero-brand-image {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
 }
 
 .hero-content h1 {
