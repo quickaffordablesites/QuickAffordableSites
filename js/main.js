@@ -1,7 +1,29 @@
 // Quick Affordable Sites - Main JS
 
+// Hamburger Menu Toggle
+function initHamburgerMenu() {
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const navMenu = document.getElementById('navMenu');
+    
+    if (hamburgerBtn && navMenu) {
+        hamburgerBtn.addEventListener('click', function() {
+            hamburgerBtn.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when a link is clicked
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                hamburgerBtn.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+}
+
 // Form Handling
 document.addEventListener('DOMContentLoaded', function() {
+    initHamburgerMenu();
     const form = document.getElementById('previewForm');
     const businessTypeSelect = document.getElementById('businessType');
     const businessTypeOtherGroup = document.getElementById('businessTypeOtherGroup');
