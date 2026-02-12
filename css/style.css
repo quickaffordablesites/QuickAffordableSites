@@ -217,16 +217,16 @@ a:hover {
 }
 
 .hero-brand-panel {
-    background: white;
-    border-radius: 16px;
-    padding: 3rem 2rem;
-    margin-bottom: 2rem;
-    max-width: 600px;
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+    max-width: 800px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: none;
     animation: fadeInDown 0.8s ease-out;
 }
 
@@ -234,6 +234,7 @@ a:hover {
     max-width: 100%;
     width: 100%;
     height: auto;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
 }
 
 .hero-content h1 {
