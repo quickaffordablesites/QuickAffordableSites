@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- QAS Text Logo for Navbar -->
+  <text x="20" y="100" font-size="80" font-weight="bold" fill="#0D4E7F" font-family="Arial, sans-serif">Q</text>
+  <text x="90" y="100" font-size="80" font-weight="bold" fill="#FF8C00" font-family="Arial, sans-serif">A</text>
+  <text x="155" y="100" font-size="80" font-weight="bold" fill="#2C3E50" font-family="Arial, sans-serif">S</text>
+</svg>

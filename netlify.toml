@@ -1,0 +1,22 @@
+# Netlify Configuration for Quick Affordable Sites
+
+[build]
+  command = "echo 'Static site, no build needed'"
+  publish = "."
+
+# Form submission notifications
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[form]
+  # This tells Netlify to capture form submissions
+  # Access them at: https://app.netlify.com -> Site Settings -> Forms
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"

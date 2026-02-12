@@ -1,0 +1,7 @@
+<svg width="500" height="250" viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 105 L60 105 L80 75 L115 75 L100 45 L60 45 L40 75 Z" fill="#FF7315" />
+  <path d="M50 145 L85 145 L115 55 L80 55 Z" fill="#121D4E" />
+  <text x="140" y="75" font-family="sans-serif" font-weight="800" font-size="38" fill="#121D4E">Quick</text>
+  <text x="140" y="120" font-family="sans-serif" font-weight="800" font-size="38" fill="#121D4E">Affordable</text>
+  <text x="140" y="165" font-family="sans-serif" font-weight="800" font-size="38" fill="#121D4E">Sites</text>
+</svg>
