@@ -1,0 +1,5 @@
+2026/02/10-09:35:09.421 9dc5 Creating DB /home/kai001/.openclaw/workspace/~/oclaw_chrome/Default/Local Storage/leveldb since it was missing.
+2026/02/10-09:35:09.505 9dc5 Reusing MANIFEST /home/kai001/.openclaw/workspace/~/oclaw_chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/11-12:16:53.403 9dc5 Level-0 table #5: started
+2026/02/11-12:16:53.416 9dc5 Level-0 table #5: 22377 bytes OK
+2026/02/11-12:16:53.420 9dc5 Delete type=0 #3

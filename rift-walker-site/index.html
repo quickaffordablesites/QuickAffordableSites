@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for the Rift Walker - A Dimensional Search</title>
+    <meta name="description" content="Search for the Rift Walker: A LitRPG web serial about a father searching across dimensions for his son, where fate bends to the roll of a d20.">
+    <meta name="author" content="Cody Sigmon">
+    <meta property="og:title" content="Search for the Rift Walker">
+    <meta property="og:description" content="A father. A rift. Infinite chances to find his son.">
+    <meta property="og:image" content="/assets/og-image.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="dice-icon">🎲</span>
+                <span class="title">Search for the Rift Walker</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#world">World</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="rift-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Search for the Rift Walker</h1>
+            <p class="hero-subtitle">A father. A rift. Infinite chances.</p>
+            <p class="hero-description">Ray searches across dimensions for his son Riker. 
+            In this world, fate bends to the roll of a d20. Every decision matters. 
+            Every roll changes everything.</p>
+            <button class="cta-button" onclick="document.getElementById('episodes').scrollIntoView({behavior: 'smooth'})">
+                Start Reading
+            </button>
+        </div>
+        <div class="hero-dice">
+            <div class="dice d20">
+                <span>20</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Episode Banner -->
+    <section class="latest-episode">
+        <div class="latest-content">
+            <p class="latest-label">Latest Episode</p>
+            <h2 id="latest-title">Episode [N/A - Connect Substack]</h2>
+            <p id="latest-summary" class="latest-summary">
+                Reading from Substack... Set SUBSTACK_URL in config to enable.
+            </p>
+            <a href="#episodes" class="read-btn">Read Latest →</a>
+        </div>
+    </section>
+
+    <!-- Episodes Section -->
+    <section id="episodes" class="episodes-section">
+        <div class="container">
+            <h2 class="section-title">Episodes</h2>
+            <p class="section-subtitle">Each roll shapes the story. Every decision matters.</p>
+            
+            <div class="episodes-grid" id="episodes-grid">
+                <!-- Episodes loaded from data.js -->
+            </div>
+            
+            <div class="episodes-meta">
+                <p>📖 <strong>Format:</strong> Weekly web serial with d20 dice rolls</p>
+                <p>🎲 <strong>Philosophy:</strong> Author rolls real d20. Dice determines outcomes. No rewrites.</p>
+                <p>🌍 <strong>Setting:</strong> Dimensional rifts, infinite worlds, one father's journey</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About Search for the Rift Walker</h2>
+                    <p>
+                        <strong>Search for the Rift Walker</strong> is a LitRPG web serial that asks a simple question: 
+                        What would you do to find your son?
+                    </p>
+                    <p>
+                        Ray is a father torn from his son Riker by a dimensional rift. 
+                        Armed with nothing but determination and a d20, he traverses impossible worlds, 
+                        facing dangers both mundane and cosmic. But here's the twist: 
+                        he doesn't control the outcome. A real d20 roll determines his fate at every turn.
+                    </p>
+                    <p>
+                        This isn't a story about a hero. It's a story about love, persistence, 
+                        and the willingness to accept uncertainty in pursuit of something that matters.
+                    </p>
+                    <p class="author-credit">
+                        <strong>Written by Cody Sigmon</strong> | Published weekly on Substack
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card">
+                        <div class="card-number">52</div>
+                        <p>Planned Episodes</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-number">∞</div>
+                        <p>Possible Worlds</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-number">1</div>
+                        <p>Father. Many dice rolls.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- World Section -->
+    <section id="world" class="world-section">
+        <div class="container">
+            <h2 class="section-title">The World</h2>
+            
+            <div class="world-grid">
+                <div class="world-card">
+                    <h3>🌍 The Rifts</h3>
+                    <p>Dimensional tears in reality. Portals to infinite worlds. Ray walks through them, 
+                    following the thinnest thread of hope that leads to Riker.</p>
+                </div>
+                
+                <div class="world-card">
+                    <h3>🎲 The Dice Rule</h3>
+                    <p>A d20 determines outcomes. Not metaphorically. Cody physically rolls the dice. 
+                    No retakes. No "that didn't count." The story follows the mathematics of chance.</p>
+                </div>
+                
+                <div class="world-card">
+                    <h3>⚔️ Combat & Challenge</h3>
+                    <p>Ray faces creatures, mysteries, and impossible odds. Each encounter is resolved by 
+                    the roll. Victory and failure are equally possible. Equally real.</p>
+                </div>
+                
+                <div class="world-card">
+                    <h3>🧑‍🤝‍🧑 Allies & Enemies</h3>
+                    <p>In each dimension, Ray meets new people. Some help him. Some hinder. Some he 
+                    changes. Some change him. Relationships form through dice rolls and difficult choices.</p>
+                </div>
+                
+                <div class="world-card">
+                    <h3>🎯 The Goal</h3>
+                    <p>Find Riker. Bring him home. But across infinite dimensions, with finite resources, 
+                    guided by chance—is that goal even possible?</p>
+                </div>
+                
+                <div class="world-card">
+                    <h3>💭 The Question</h3>
+                    <p>What makes a parent willing to walk through rifts, face unknown horrors, 
+                    and keep rolling—even when the dice say no?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section class="characters-section">
+        <div class="container">
+            <h2 class="section-title">Key Characters</h2>
+            
+            <div class="characters-grid">
+                <div class="character-card">
+                    <div class="character-icon">👨</div>
+                    <h3>Ray</h3>
+                    <p class="role">Search for the Rift Walker</p>
+                    <p>A father on an impossible quest. Defined not by power, but by persistence. 
+                    Every dimension presents a new challenge, a new chance to find his son.</p>
+                </div>
+                
+                <div class="character-card">
+                    <div class="character-icon">👦</div>
+                    <h3>Riker</h3>
+                    <p class="role">The Lost Son</p>
+                    <p>Separated from his father by a dimensional rift. Somewhere in the infinite, 
+                    he waits—or moves, or changes. Ray's compass. Ray's reason.</p>
+                </div>
+                
+                <div class="character-card">
+                    <div class="character-icon">🎲</div>
+                    <h3>Chance Itself</h3>
+                    <p class="role">The Silent Arbiter</p>
+                    <p>The d20 speaks. Ray listens. Outcomes aren't negotiated—they're rolled. 
+                    The universe doesn't care about the destination, only the roll.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dice Roll History -->
+    <section class="rolls-section">
+        <div class="container">
+            <h2 class="section-title">Rolls That Changed Everything</h2>
+            <p class="section-subtitle">Recent dice rolls that shaped the story</p>
+            
+            <div class="rolls-timeline" id="rolls-timeline">
+                <div class="roll-entry placeholder">
+                    <p>Dice roll data will appear here. Connect Substack for real-time updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="subscribe" class="subscribe-section">
+        <div class="container">
+            <div class="subscribe-content">
+                <h2>Don't Miss an Episode</h2>
+                <p>New episodes publish weekly. Follow the rift. Roll with Ray.</p>
+                
+                <div class="subscribe-options">
+                    <a href="https://substack.com" class="subscribe-button substack" target="_blank">
+                        <span>📧</span> Subscribe on Substack
+                    </a>
+                    <a href="#" class="subscribe-button rss" id="rss-link">
+                        <span>📡</span> RSS Feed
+                    </a>
+                </div>
+                
+                <p class="subscribe-note">
+                    <strong>Note:</strong> Configure SUBSTACK_URL in config for live integration
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Search for the Rift Walker</h4>
+                <p>A web serial by Cody Sigmon</p>
+                <p class="footer-meta">Published weekly • Guided by d20 rolls</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#" onclick="return false">Substack</a></li>
+                    <li><a href="#" onclick="return false">Twitter/X</a></li>
+                    <li><a href="#" onclick="return false">Discord (Coming)</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>More Info</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#world">The World</a></li>
+                    <li><a href="#episodes">Episodes</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cody Sigmon. Built with intention. Guided by dice.</p>
+            <p class="footer-small">Companion site for Search for the Rift Walker Substack serial</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

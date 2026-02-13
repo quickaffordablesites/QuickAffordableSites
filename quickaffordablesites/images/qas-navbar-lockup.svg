@@ -1,0 +1,7 @@
+<svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(0.4) translate(20, 20)">
+    <path d="M50 50 L140 50 L110 120 L20 120 Z" fill="#FF7315" />
+    <path d="M80 80 L130 80 L100 180 L50 180 Z" fill="#121D4E" />
+  </g>
+  <text x="95" y="55" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="42" fill="#121D4E">QAS</text>
+</svg>

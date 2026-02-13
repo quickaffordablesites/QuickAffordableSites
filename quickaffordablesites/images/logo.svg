@@ -1,0 +1,24 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser window -->
+  <rect x="50" y="50" width="400" height="300" rx="20" fill="none" stroke="#0D4E7F" stroke-width="8"/>
+  
+  <!-- Browser header -->
+  <rect x="50" y="50" width="400" height="50" rx="20" fill="#0D4E7F"/>
+  
+  <!-- Browser dots -->
+  <circle cx="80" cy="75" r="6" fill="#FFFFFF"/>
+  <circle cx="110" cy="75" r="6" fill="#FFFFFF"/>
+  <circle cx="140" cy="75" r="6" fill="#FFFFFF"/>
+  
+  <!-- URL bar -->
+  <rect x="170" y="65" width="260" height="20" rx="10" fill="#FFFFFF"/>
+  
+  <!-- Forward arrow (blue) -->
+  <path d="M 120 160 L 180 200 L 120 240 Z" fill="#0D4E7F"/>
+  
+  <!-- Forward arrow (orange) -->
+  <path d="M 170 150 L 240 210 L 170 270 Z" fill="#FF8C00"/>
+  
+  <!-- Dollar sign -->
+  <text x="280" y="240" font-size="80" font-weight="bold" fill="#2C3E50" font-family="Arial">$</text>
+</svg>

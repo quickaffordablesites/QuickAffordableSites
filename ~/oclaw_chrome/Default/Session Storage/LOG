@@ -1,0 +1,5 @@
+2026/02/10-09:35:09.835 9dc5 Creating DB /home/kai001/.openclaw/workspace/~/oclaw_chrome/Default/Session Storage since it was missing.
+2026/02/10-09:35:09.850 9dc5 Reusing MANIFEST /home/kai001/.openclaw/workspace/~/oclaw_chrome/Default/Session Storage/MANIFEST-000001
+2026/02/11-12:16:48.143 9dc7 Level-0 table #5: started
+2026/02/11-12:16:48.169 9dc7 Level-0 table #5: 32788 bytes OK
+2026/02/11-12:16:48.255 9dc7 Delete type=0 #3

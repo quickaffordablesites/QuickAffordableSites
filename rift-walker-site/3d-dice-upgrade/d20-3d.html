@@ -1,0 +1,70 @@
+<!-- 3D D20 Dice Replacement -->
+<!-- Replace the existing .hero-dice section with this code -->
+
+<div class="d20-3d-container" onclick="roll3DDice()">
+    <div class="d20-3d" id="dice3d">
+        <div class="d20-face">20</div>
+        <div class="d20-face">1</div>
+        <div class="d20-face">19</div>
+        <div class="d20-face">2</div>
+        <div class="d20-face">18</div>
+        <div class="d20-face">3</div>
+    </div>
+    <div class="d20-result-display" id="d20Result"></div>
+</div>
+
+<script>
+function roll3DDice() {
+    const dice = document.getElementById('dice3d');
+    const resultDisplay = document.getElementById('d20Result');
+    
+    // Add rolling animation
+    dice.classList.add('rolling');
+    
+    // Generate random roll
+    const roll = Math.floor(Math.random() * 20) + 1;
+    
+    // Update all faces to show the roll (simplified)
+    const faces = dice.querySelectorAll('.d20-face');
+    faces.forEach((face, i) => {
+        face.classList.remove('active');
+        if (i === 0) {
+            face.textContent = roll;
+            setTimeout(() => face.classList.add('active'), 1000);
+        }
+    });
+    
+    // Show result
+    setTimeout(() => {
+        resultDisplay.textContent = `You rolled: ${roll}`;
+        resultDisplay.classList.add('visible');
+        
+        // Get narrative response
+        const narrative = getDiceNarrative(roll);
+        setTimeout(() => {
+            resultDisplay.textContent = narrative;
+        }, 1500);
+    }, 1000);
+    
+    // Remove rolling animation
+    setTimeout(() => {
+        dice.classList.remove('rolling');
+    }, 1000);
+    
+    // Hide result after a few seconds
+    setTimeout(() => {
+        resultDisplay.classList.remove('visible');
+    }, 5000);
+}
+
+// Keep your existing getDiceNarrative function
+function getDiceNarrative(roll) {
+    if (roll === 20) return "Critical success! The rifts align.";
+    if (roll === 1) return "Critical failure. The path darkens.";
+    if (roll >= 18) return "Exceptional outcome. Ray presses forward.";
+    if (roll >= 15) return "Strong success. Progress made.";
+    if (roll >= 10) return "Modest success. The search continues.";
+    if (roll >= 5) return "Setback. But not defeat.";
+    return "Difficult roll. Ray adapts.";
+}
+</script>

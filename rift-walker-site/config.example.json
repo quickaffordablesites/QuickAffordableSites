@@ -1,0 +1,91 @@
+{
+  "site": {
+    "title": "The Rift Walker",
+    "subtitle": "A father. A rift. Infinite chances.",
+    "description": "A LitRPG web serial about a father searching across dimensions for his son, where fate bends to the roll of a d20.",
+    "author": "Cody Sigmon",
+    "domain": "rift-walker.example.com"
+  },
+  
+  "substack": {
+    "url": "https://yourname.substack.com",
+    "rssFeedUrl": "https://yourname.substack.com/feed",
+    "apiEndpoint": null,
+    "enabled": false
+  },
+  
+  "content": {
+    "useLocalData": true,
+    "episodesPerPage": 6,
+    "showDraftEpisodes": false,
+    "archiveUrl": "/episodes"
+  },
+  
+  "design": {
+    "theme": "dark",
+    "colorScheme": {
+      "primary": "#0a0e27",
+      "secondary": "#1a1f3a",
+      "riftPurple": "#7c3aed",
+      "riftBlue": "#3b82f6",
+      "accentGold": "#fbbf24"
+    },
+    "font": "system",
+    "customFontUrl": null
+  },
+  
+  "social": {
+    "twitter": "https://twitter.com/yourhandle",
+    "discord": "https://discord.gg/yourserver",
+    "patreon": null,
+    "koFi": null
+  },
+  
+  "analytics": {
+    "googleAnalyticsId": null,
+    "enabled": false,
+    "trackEvents": true
+  },
+  
+  "deployment": {
+    "platform": "netlify",
+    "cdnEnabled": true,
+    "cacheTimeout": 3600,
+    "enableCompressionGzip": true
+  },
+  
+  "features": {
+    "interactiveDice": true,
+    "diceNotifications": true,
+    "keyboardShortcuts": true,
+    "scrollAnimations": true,
+    "mobileMenu": true,
+    "darkMode": true,
+    "lightMode": false
+  },
+  
+  "integrations": {
+    "disqusComments": {
+      "enabled": false,
+      "shortname": null
+    },
+    "newsletter": {
+      "enabled": false,
+      "provider": "mailchimp",
+      "formId": null
+    },
+    "ecommerce": {
+      "enabled": false,
+      "platform": "shopify",
+      "storeUrl": null
+    }
+  },
+  
+  "seo": {
+    "sitemap": true,
+    "robotsTxt": true,
+    "openGraphEnabled": true,
+    "twitterCardEnabled": true,
+    "structuredData": true
+  }
+}
