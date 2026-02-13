@@ -1,7 +1,10 @@
 <svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
-  <g transform="scale(0.4) translate(20, 20)">
-    <path d="M50 50 L140 50 L110 120 L20 120 Z" fill="#FF7315" />
-    <path d="M80 80 L130 80 L100 180 L50 180 Z" fill="#121D4E" />
+  <g transform="scale(0.3) translate(10, 10)">
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#121D4E" stroke-width="40" />
+    <path d="M105,85 L150,190 L125,200 L135,230 L115,240 L105,210 L80,220 Z" fill="#FF7315" stroke="white" stroke-width="8" />
   </g>
-  <text x="95" y="55" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="42" fill="#121D4E">QAS</text>
+
+  <text x="85" y="55" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="42" fill="#121D4E">Q</text>
+  <text x="125" y="55" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="42" fill="#FF7315">A</text>
+  <text x="160" y="55" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="42" fill="#121D4E">S</text>
 </svg>

@@ -1,11 +1,12 @@
-<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(20, 20) scale(0.8)">
-     <path d="M40 80 L100 80 L130 140 L190 140 L160 200 L100 200 L70 140 L10 140 Z" fill="#FF7315"/>
-    <path d="M70 220 L150 220 L110 300 L30 300 Z" fill="#121D4E"/>
+<svg width="500" height="250" viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(20, 20) scale(0.9)">
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#121D4E" stroke-width="40" />
+    
+    <path d="M100,100 L140,200 L120,210 L100,100 Z" fill="none" /> 
+    <path d="M105,85 L150,190 L125,200 L135,230 L115,240 L105,210 L80,220 Z" fill="#FF7315" stroke="white" stroke-width="8" />
   </g>
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#121D4E">
-    <text x="220" y="100" font-size="55">Quick</text>
-    <text x="220" y="160" font-size="55">Affordable</text>
-    <text x="220" y="220" font-size="55">Sites</text>
-  </g>
+
+  <text x="240" y="90" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="48" fill="#121D4E">Quick</text>
+  <text x="240" y="145" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="48" fill="#FF7315">Affordable</text>
+  <text x="240" y="200" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="48" fill="#121D4E">Sites</text>
 </svg>
